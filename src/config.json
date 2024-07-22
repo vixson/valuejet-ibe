@@ -1,0 +1,44 @@
+{
+  "credentials": {
+    "email": "johndoe@gmail.com",
+    "password": "password"
+  },
+  "popularDestinations": [
+    {
+      "image": "/country/abuja.jpg",
+      "state": "Abuja",
+      "slogan": "Centre of Unity",
+      "slug": "abuja"
+    },
+    {
+      "image": "/country/LAGOS.png",
+      "state": "Lagos",
+      "slogan": "Centre of Unity",
+      "slug": "lagos"
+    },
+    {
+      "image": "/country/LAGOS.png",
+      "state": "Yola",
+      "slogan": "Center of Unity",
+      "slug": "yola"
+    },
+    {
+      "image": "https://staging.flyvaluejet.com/destinations/portharcourt.jpg",
+      "state": "Port Harcourt",
+      "slogan": "Treasure Base of the Nation",
+      "slug": "port-harcourt"
+    },
+    {
+      "image": "https://staging.flyvaluejet.com/destinations/portharcourt.jpg",
+      "state": "Asaba",
+      "slogan": "The Big Heart",
+      "slug": "asaba"
+    },
+    {
+      "image": "/country/KANO.png",
+      "state": "Kano",
+      "slogan": "Centre of Commerce",
+      "slug": "kano"
+    }
+  ]
+}
