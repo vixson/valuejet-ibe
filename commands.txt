@@ -1,6 +1,0 @@
-npx prisma init --datasource-provider sqlite
-npx prisma migrate dev --name init
-
-Add SESSION_SECRET="secret" tothe env. file
-
-create seed.ts file

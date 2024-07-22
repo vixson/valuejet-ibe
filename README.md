@@ -1,51 +1,36 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Documentation
+## Getting Started
 
-[Documentation](https://linktodocumentation)
+First, run the development server:
 
-To get started with this run
-
-```sh
-npm i -save
-```
-
-The above command installs the required libraries and packages for the app.
-
-
-The run 
-
-```sh
-npm run setup
-```
-
-to setup your database migration, initialzation and seeding.
-
-After completion, run
-
-```sh
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun run dev
 ```
 
-to run the app in development mode.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### State Management
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-State management in this app is implemented using the `useFetcher`,  `useLoaderData` and `useActionData` hooks.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-The `useFetcher` hook is a hook for interacting with the server outside of navigation. 
+## Learn More
 
-The `useActionData` accesses the data from the latest action. The server theorectically should be the central source of truth in an app, but sometimes, due to complex state management tools like redux, the app state becomes duplicated in client and server. In turn this makes the app more complex as network states like 'isLoading' or 'isError' need to be accounted for. The use of these hooks makes the state management simpler, eliminating possiblilities of code redudancy and reduxing app complexity.
+To learn more about Next.js, take a look at the following resources:
 
-To learn more visit 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-[Remix State Management](https://remix.run/docs/en/main/discussion/state-management)
- 
- ### Dynamic Routing
-Dynamic routing is implemented using remix's file based routing strategey.It is possible to declare the parameters by prefixing them with a $ in the file name.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-This implemented can be observed in the `app/routes/product.$productId.tsx` route component.
+## Deploy on Vercel
 
-To learn more visit 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-[Dynamic Routes](https://remix.run/docs/en/main/file-conventions/routes)
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
